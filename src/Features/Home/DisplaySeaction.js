@@ -1,11 +1,23 @@
 
+import { useLottie } from 'lottie-react'
+import yoga from '../../Assest/animation.json'
+
 const DisplaySeaction = () => {
 
+  const animation = {
+    animationData: yoga,
+    loop: true,
+  }
+  const style = {
+    height: 500,
+  }
+  const { View } = useLottie(animation, style)
 
   return (
     <div className='grid grid-cols-2 max-sm:grid-cols-1 items-center  mb-16'>
 
       <div className="animation h-[500px]">
+        {View}
       </div>
 
       <div className="text space-y-2 max-sm:text-center">
