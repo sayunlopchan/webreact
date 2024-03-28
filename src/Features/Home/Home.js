@@ -1,5 +1,5 @@
-import TaskA from './TaskA';
-import TaskB from './TaskB';
+import TaskA from "../../Task/TaskA"
+import TaskB from "../../Task/TaskB"
 
 const Home = () => {
 

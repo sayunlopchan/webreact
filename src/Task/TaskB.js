@@ -2,11 +2,12 @@ import React, { useState } from 'react'
 
 const TaskB = () => {
 
-  const [show, updateShow] = useState(false);
+  const [show, setShow] = useState(false);
 
   const openDialog = () => {
-    updateShow((prev) => !prev)
+    setShow((prev) => !prev)
   }
+
 
   return (
     <div className='flex flex-col justify-center items-center h-[50vh] bg-slate-300 relative'>
