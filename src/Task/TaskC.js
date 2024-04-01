@@ -9,14 +9,13 @@ const TaskC = () => {
   axios.get('http://www.omdbapi.com', {
     params: {
       apikey: 'ca1bf188',
-      Title: 'Guardians of the Galaxy Vol. 2',
       i: 'tt3896198'
     }
   }).then((res) => {
     setData(res.data)
   }
   ).catch((err) => {
-    setData(err.data)
+
   })
 
 
