@@ -1,6 +1,6 @@
 import React from 'react'
 
-const UseEffect = () => {
+const UseEffectHooks = () => {
 
 
   return (
@@ -10,4 +10,4 @@ const UseEffect = () => {
   )
 }
 
-export default UseEffect
+export default UseEffectHooks

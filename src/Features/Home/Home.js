@@ -1,13 +1,13 @@
 import React from 'react'
-import UseState from '../../Hooks/UseState'
-import UseEffect from '../../Hooks/UseEffect'
+import UseStateHooks from '../../Hooks/UseStateHooks'
+import UseEffectHooks from '../../Hooks/UseEffectHooks'
 
 const Home = () => {
 
   return (
     <div>
-      <UseState />
-      <UseEffect />
+      <UseStateHooks />
+      <UseEffectHooks />
     </div>
   )
 }

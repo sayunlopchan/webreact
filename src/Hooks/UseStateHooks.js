@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const UseState = () => {
+const UseStateHooks = () => {
 
   const [state, setState] = useState(0);
 
@@ -28,4 +28,4 @@ const UseState = () => {
   )
 }
 
-export default UseState
+export default UseStateHooks
