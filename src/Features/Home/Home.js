@@ -36,7 +36,6 @@ const Home = () => {
       })}
 
       {id && <Details id={id} />}
-
     </div>
   )
 }
